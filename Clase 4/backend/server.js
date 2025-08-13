@@ -14,7 +14,7 @@ const io = socketIo(server, {
 });
 
 // Configuración de MongoDB
-const uri = "mongodb+srv://3013781500101:jose1234@acye1.e1gykov.mongodb.net/?retryWrites=true&w=majority&appName=ACYE1";
+const uri = "mongodb+srv://3013781500101:password@acye1.e1gykov.mongodb.net/?retryWrites=true&w=majority&appName=ACYE1";
 const client = new MongoClient(uri);
 
 let db;
