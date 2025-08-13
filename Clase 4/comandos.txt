@@ -1,0 +1,17 @@
+pip3 install adafruit-circuitpython-dht
+sudo apt-get install libgpiod2d
+pip install board
+
+python3 -m venv nombre
+source nombre/bin/activate
+
+BACKEND
+npm init -y
+npm install express mongodb cors socket.io
+npm install -D nodemon
+
+FRONTEND
+npx create-react-app frontend
+npm install -D tailwindcss postcss autoprefixer
+npm install socket.io-client
+npx tailwindcss init -p
