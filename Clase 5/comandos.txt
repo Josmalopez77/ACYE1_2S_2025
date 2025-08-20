@@ -1,0 +1,12 @@
+BACKEND
+npm init -y
+
+npm install express mqtt cors
+npm install -D nodemon
+
+FRONTEND
+npx create-react-app led-controller-frontend
+npm install lucide-react
+
+RASP
+pip3 install paho-mqtt RPi.GPIO
