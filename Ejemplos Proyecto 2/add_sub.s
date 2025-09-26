@@ -392,10 +392,8 @@ addroundkey_done:
     ret
     .size addRoundKey, (. - addRoundKey)
 
-/*
  // Función de prueba para AddRoundKey
- * Muestra el estado antes y después del XOR con la clave
- */
+
 .type testAddRoundKey, %function
 .global testAddRoundKey
 testAddRoundKey:
