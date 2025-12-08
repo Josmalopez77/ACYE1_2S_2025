@@ -7,7 +7,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(LED_PIN, GPIO.OUT)
 GPIO.output(LED_PIN, GPIO.LOW)
 
-broker = "34d52f5960aa4de68c98b72bdee68942.s1.eu.hivemq.cloud"  # Solo dominio
+broker = "34d52f5960aa4de68c98b72bdee68942.s1.eu.hivemq.cloud"  
 port = 8883
 username = "hivemq.webclient.1755304058895"
 password = "9Zf72F6J#ElY!.,waOqm"
